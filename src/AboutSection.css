@@ -46,4 +46,8 @@
     .AboutSection img {
         width: 100%;
     }
+
+    .AboutSection img {
+        max-height: 350px;
+    }
 }
