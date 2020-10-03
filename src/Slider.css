@@ -1,0 +1,42 @@
+.Slider {
+    height: 60vh;
+    position: relative;
+}
+
+.Slider__buttons {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.Slider__buttons .Slider__button {
+    border: none;
+    background-color: var(--black);
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.Slider__buttons .Slider__button:hover {
+    background-color: var(--dark-gray);
+}
+
+.Slider__buttons .Slider__button:focus {
+    outline: none;
+}
+
+@media screen and (max-width: 920px) {
+    .Slider {
+        height: 100%;
+        position: relative;
+    }
+
+    .Slider__buttons {
+        position: absolute;
+        bottom: 101%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+    }
+}
