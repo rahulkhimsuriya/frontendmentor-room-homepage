@@ -52,7 +52,7 @@
 }
 
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 1200px) {
     .Slide {
         flex-direction: column;
     }
